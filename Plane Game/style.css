@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#gameCanvas {
+    border: 2px solid black;
+}
+
+#score, #highScore, #instructions, #gameInstructions {
+    font-size: 18px;
+    position: absolute;  /* Change the position of the text lines */
+}
+
+#score {
+    top: 70px;
+    left: 55%;  /* Move left 10% */
+    
+}
+#highScore {
+    top: 70px; /* Show high score right below score */
+    left: 37.5%;
+}
+
+#instructions {
+    top: 615px;  /* Place a little distance from the top */
+    left: 2%;  /* Move left 10% */
+    font-weight: bold;
+}
+
+#gameInstructions {
+    top: 645px;  /* Place a little distance from the top */
+    left: 2%;  /* Move left 10% */
+    color: green;
+}
